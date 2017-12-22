@@ -43,3 +43,13 @@ class User < ActiveRecord::Base
 end
 
 {% endhighlight %}
+
+{% highlight cpp%}
+
+#include <iostream>
+void main()
+{
+    puts("hello");
+}
+
+{% endhighlight %}
