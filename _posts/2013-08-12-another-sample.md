@@ -16,6 +16,10 @@ chia, **wayfarers** swag raw denim hashtag biodiesel occupy gastropub!
 
 ---
 
+$$
+\theta_i = \theta_i - \alpha\frac\partial{\partial\theta_i}J(\theta)
+$$
+
 # It's all in the game.
 
 ## You come at the king, you best not miss.
