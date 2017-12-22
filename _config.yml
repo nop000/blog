@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: pygments
-url: http://example.com
+url: nop000.github.io
 lsi: false
 tt:  1111
 baseurl: /blog
