@@ -1,7 +1,21 @@
 # General Jekyll Config
-highlighter: pygments
+#highlighter: pygments
 url: nop000.github.io
 lsi: false
 tt:  1111
-baseurl: /blog
+#baseurl: /blog
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+highlighter: rouge
+markdown: kramdown
+#linenos: true
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        span:
+            line_numbers: false
+        block:
+            line_numbers: false
+            start_line: 1
+plugins:
+  - jekyll-seo-tag

@@ -1,7 +1,9 @@
 # Theme customization - please change from the defaults!
 
 # Color for top bar, links, etc
-highlight_color: '#3498db'
+#highlight_color: '#3498db'
+#highlight_color: '#fda450'
+highlight_color: '#4e88c6'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
@@ -19,7 +21,8 @@ social:
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: ycp
+name: 日志空间 
+main: 目录
 email: nop.ycp@gmail.com
 tagline: "weak opinions, strongly held"
 

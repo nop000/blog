@@ -9,20 +9,35 @@ html, body {
 
 body {
   font-size: 16px;
-  background-color: white;
+  /*background-color: white;*/
+  background-color: #f5f5d7;
+  background-color: #e8f2fb;
   color: #222222;
-  line-height: 24px;
+  /*line-height: 24px;*/
+  color: #181818;
   margin: 0;
   border-top: 7px solid {{ site.data.theme.highlight_color }};
+  /*ycp add*/
+  letter-spacing: -0.12px;
+  line-height: 28.8px;
+  font-family: Georgia, serif;
+  word-spacing: 2.4px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "open sans", sans-serif;
+  /*font-family: "open sans", sans-serif;*/
+  font-family: Georgia, serif;
   font-weight: 600;
 }
 
+h1, h2, h3 {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 0 0 0.2em 0;
+}
+
 h1.title {
+  font-family: "open sans", sans-serif;
   font-weight: 800;
 }
 
@@ -45,6 +60,18 @@ h3 {
 ul {
   margin: 1em 0;
   list-style: disc;
+}
+
+p.cnfont{font-family: "Times New Roman",Georgia,Serif}
+p.enfont{font-family: "open sans", sans-serif;}
+
+p {
+  font-family: Georgia, serif;
+  /*font-family: sans-serif;*/
+}
+
+div.cnfont {
+  font-family: Georgia, serif;
 }
 
 a {
@@ -130,9 +157,19 @@ nav h1, nav h2 {
 }
 
 #post pre {
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
+  border-radius: 1em;
+  background-color: #f5f2f0;
   background-color: #eef;
+  background-color: #f6f6f6;
   padding: 0 .4em;
+  margin-bottom: 20px !important;
+}
+
+#post img {
+  border: 3px solid #ddd;
+  border-radius: 1em;
+  background-color: #f6f6f6;
   margin-bottom: 20px !important;
 }
 
@@ -143,7 +180,9 @@ nav h1, nav h2 {
 
 #post code {
   border: 1px solid #ddd;
+  background-color: #f5f2f0;
   background-color: #eef;
+  background-color: #f6f6f6;
   font-size: 85%;
   padding: 0 .2em;
 }
@@ -167,6 +206,7 @@ nav h1, nav h2 {
 
 .content {
   font: 400 16px/22px "open sans", sans-serif;
+  font: 400 16px/28.8px Georgia, serif;
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;

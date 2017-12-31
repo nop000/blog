@@ -31,6 +31,8 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+        /*ycp add*/ 
+        /*font-family: Georgia, serif;*/
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
@@ -52,10 +54,11 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
+		/*background: #fff;*/
+        background: #f5f5d7;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		/*-webkit-font-smoothing: antialiased;*/ /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
 

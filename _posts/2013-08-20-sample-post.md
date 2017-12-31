@@ -34,7 +34,8 @@ iPhone try-hard jean shorts.
 
 Syntax highlighting with Solarized theme.
 
-{% highlight ruby %}
+``` ruby
+
 class User < ActiveRecord::Base
   attr_accessible :email, :name
 
@@ -42,4 +43,4 @@ class User < ActiveRecord::Base
 
 end
 
-{% endhighlight %}
+```

@@ -1,5 +1,4 @@
 <nav>
-  <h1>Hi.</h1>
   <a href="/">
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
@@ -7,14 +6,27 @@
     <img src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
-  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
-  <div id="bio">
-    <p>A brief bio or something witty.</p>
-    <p>
+  <h2><a href="/">{{ site.data.theme.main}}</a></h2>
+  <div class="cnfont" id="bio">
+    网络日志
+    <br>
+    <br>
+    随笔，调整中......
+    <!--
       Edit me in <code>_includes/sidebar.html</code>
-    </p>
+    -->
   </div>
-  <div id="social">
+  <!-- 
+  <h4>Category</h4>
+  <ul>
+    {% for category in site.categories %}
+    <li><a href="/categories/{{ category | first }}/" title="view all
+posts">{{ category | first }} {{ category | last | size }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  -->
+  <div class="cnfont" id="social">
     {% include social.html %}
   </div>
 
