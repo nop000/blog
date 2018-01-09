@@ -156,9 +156,14 @@ nav h1, nav h2 {
   border-width: 1px 0;
 }
 
+::-webkit-scrollbar{
+  display:none;
+}
+
 #post pre {
+  /*display: inline-block;*/
   border: 3px solid #ddd;
-  border-radius: 1em;
+  border-radius: 0.5em;
   background-color: #f5f2f0;
   background-color: #eef;
   background-color: #f6f6f6;
@@ -168,7 +173,7 @@ nav h1, nav h2 {
 
 #post img {
   border: 3px solid #ddd;
-  border-radius: 1em;
+  border-radius: 0.5em;
   background-color: #f6f6f6;
   margin-bottom: 20px !important;
 }
