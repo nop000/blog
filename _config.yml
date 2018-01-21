@@ -19,3 +19,8 @@ kramdown:
             start_line: 1
 plugins:
   - jekyll-seo-tag
+
+collections:
+    - pdfs
+collections:
+- images
